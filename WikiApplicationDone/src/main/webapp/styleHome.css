@@ -1,0 +1,111 @@
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #08004d; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a9a3a3;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .title{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(2, 2, 101);
+
+    font-size: 40px;
+  
+  }
+  
+  #titleArticle{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(2, 2, 90);
+  }
+
+  #h2 {
+    text-align: center;
+  }
+  
+  #pageName {
+  text-decoration: underline;
+  }
+  
+  body {
+   width: 75%;
+    max-width: 600px;
+    margin: 0 auto 32px auto; }
+    
+    p {
+    text-align: left;
+    }
+    
+    
+    #myInput {
+
+  background-position: 10px 12px; 
+  width: 80%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /
+  margin-top: -1px; /
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+.maxText {
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+}
